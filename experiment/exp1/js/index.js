@@ -335,10 +335,9 @@ function make_slides(f) {
       exp.data_trials.push({
         // item-specific fields
         "response" : exp.sliderPost,
-        "lexicalization": this.stim.lexicalization,
+        "item": this.stim.item,
         "sentence": this.stim.sentence,
-        "gap_position": this.stim.gap_position,
-        "complementizer": this.stim.complementizer,
+        "condition": this.stim.condition,
         "trial_sequence_total": order,
         "sentence_id": this.stim.unique_id
       });
