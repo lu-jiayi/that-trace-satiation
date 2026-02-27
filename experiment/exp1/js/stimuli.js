@@ -9,7 +9,7 @@ const all_stimuli =
     },
     {
         "item": 1,
-        "condition": null,
+        "condition": "null",
         "sentence": "Julia knows the students who you believe submitted the assignment on time.",
         "unique_id": 1012
     },
@@ -21,7 +21,7 @@ const all_stimuli =
     },
     {
         "item": 2,
-        "condition": null,
+        "condition": "null",
         "sentence": "Mary recognizes the employees who we think completed the report very early.",
         "unique_id": 1022
     },
@@ -33,7 +33,7 @@ const all_stimuli =
     },
     {
         "item": 3,
-        "condition": null,
+        "condition": "null",
         "sentence": "Sophia identifies the researchers who we assume published the article last year.",
         "unique_id": 1032
     },
@@ -45,7 +45,7 @@ const all_stimuli =
     },
     {
         "item": 4,
-        "condition": null,
+        "condition": "null",
         "sentence": "Kate calls the workers who you say filed the complaint this week.",
         "unique_id": 1042
     },
@@ -57,7 +57,7 @@ const all_stimuli =
     },
     {
         "item": 5,
-        "condition": null,
+        "condition": "null",
         "sentence": "Janice likes the teachers who we claim reviewed the manuscript quite early.",
         "unique_id": 1052
     },
@@ -69,7 +69,7 @@ const all_stimuli =
     },
     {
         "item": 6,
-        "condition": null,
+        "condition": "null",
         "sentence": "Emily meets the colleagues who you suppose finalized the plan right away.",
         "unique_id": 1062
     },
@@ -81,7 +81,7 @@ const all_stimuli =
     },
     {
         "item": 7,
-        "condition": null,
+        "condition": "null",
         "sentence": "Jake encounters the secretaries who we believe scheduled the meeting this morning.",
         "unique_id": 1072
     },
@@ -93,7 +93,7 @@ const all_stimuli =
     },
     {
         "item": 8,
-        "condition": null,
+        "condition": "null",
         "sentence": "Charles notices the experts who you think updated the software last month.",
         "unique_id": 1082
     },
@@ -105,7 +105,7 @@ const all_stimuli =
     },
     {
         "item": 9,
-        "condition": null,
+        "condition": "null",
         "sentence": "Ben respects the professors who we assume established the system long ago.",
         "unique_id": 1092
     },
@@ -117,7 +117,7 @@ const all_stimuli =
     },
     {
         "item": 10,
-        "condition": null,
+        "condition": "null",
         "sentence": "Daniel remembers the agents who you say archived the document pretty efficiently.",
         "unique_id": 1102
     },
@@ -129,7 +129,7 @@ const all_stimuli =
     },
     {
         "item": 11,
-        "condition": null,
+        "condition": "null",
         "sentence": "Paul visits the technicians who we claim processed the application earlier today.",
         "unique_id": 1112
     },
@@ -141,7 +141,7 @@ const all_stimuli =
     },
     {
         "item": 12,
-        "condition": null,
+        "condition": "null",
         "sentence": "Derek supports the directors who you suppose approved the proposal that evening.",
         "unique_id": 1122
     },
