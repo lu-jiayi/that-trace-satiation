@@ -1,0 +1,43 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: response ~ gap * comp * block + (1 + gap * comp * block - block -  
+    gap:comp:block | item) + (1 + gap * comp * block | workerid)
+   Data: prepost
+
+REML criterion at convergence: 406.8
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.55872 -0.42970  0.07041  0.47516  2.31161 
+
+Random effects:
+ Groups   Name              Variance  Std.Dev. Corr                                     
+ workerid (Intercept)       0.0290902 0.17056                                           
+          gap1              0.0032751 0.05723   0.22                                    
+          comp1             0.0084084 0.09170  -0.26 -0.06                              
+          block1            0.0059936 0.07742  -0.14 -0.27  0.07                        
+          gap1:comp1        0.0035466 0.05955  -0.04 -0.21 -0.12 -0.16                  
+          gap1:block1       0.0015466 0.03933   0.10  0.14  0.09  0.03  0.01            
+          comp1:block1      0.0031022 0.05570   0.15 -0.22 -0.17  0.04  0.11 -0.14      
+          gap1:comp1:block1 0.0015057 0.03880  -0.06  0.49  0.21 -0.26  0.63  0.36 -0.08
+ item     (Intercept)       0.0049032 0.07002                                           
+          gap1              0.0015776 0.03972  -0.04                                    
+          comp1             0.0005021 0.02241   0.31  0.65                              
+          gap1:comp1        0.0006275 0.02505  -0.09  0.65  0.48                        
+          gapobject:block1  0.0014992 0.03872   0.91  0.20  0.64  0.20                  
+          gapsubject:block1 0.0004286 0.02070  -0.22 -0.80 -0.92 -0.76 -0.58            
+          comp1:block1      0.0004542 0.02131  -0.26  0.45  0.07  0.62 -0.02 -0.41      
+ Residual                   0.0309527 0.17593                                           
+Number of obs: 1608, groups:  workerid, 200; item, 16
+
+Fixed effects:
+                    Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)         0.590008   0.021724  27.121690  27.159  < 2e-16 ***
+gap1                0.051653   0.011616  13.838076   4.447 0.000568 ***
+comp1               0.107481   0.009660  27.096446  11.127 1.31e-11 ***
+block1             -0.037608   0.008103  35.531284  -4.641 4.59e-05 ***
+gap1:comp1         -0.048305   0.008769  12.547410  -5.509 0.000114 ***
+gap1:block1         0.008026   0.008508  12.241257   0.943 0.363699    
+comp1:block1       -0.001597   0.008009  13.010223  -0.199 0.845016    
+gap1:comp1:block1  -0.014187   0.005266 199.206827  -2.694 0.007655 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
